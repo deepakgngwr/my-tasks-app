@@ -1,8 +1,7 @@
 {
-  "name": "My Tasks",
-  "short_name": "Tasks",
-  "start_url": "/index.html",
-  "scope": "/",
+  "name": "My Todo App",
+  "short_name": "Todo",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#f97316",
@@ -18,4 +17,6 @@
       "type": "image/png"
     }
   ]
+}
+
 }
