@@ -307,6 +307,16 @@
             <small>Add a task to get started</small>
         </div>
     </div>
+    <h2>My Tasks</h2>
+
+<input
+  id="taskInput"
+  placeholder="Type task like: submit homework tomorrow 6pm"
+/>
+<button onclick="addTask()">Add</button>
+
+<ul id="taskList"></ul>
+
 
     <script>
         // Service Worker Registration
@@ -476,9 +486,11 @@ if ("serviceWorker" in navigator) {
     .catch(err => console.log("SW registration failed", err));
 }
 </script>
+<script src="script.js"></script>
 
 </body>
 </html>
+
 
 
 
